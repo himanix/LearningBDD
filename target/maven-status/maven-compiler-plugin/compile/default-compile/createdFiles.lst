@@ -1,0 +1,4 @@
+pageobjects\HomePage.class
+pageobjects\UsernamePage.class
+pageobjects\BaseClass.class
+pageobjects\ContinuePage.class

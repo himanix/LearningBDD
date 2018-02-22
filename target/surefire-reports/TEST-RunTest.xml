@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="RunTest" time="1.372" tests="21" errors="0" skipped="18" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\workspace\LearningBDD\target\test-classes;C:\workspace\LearningBDD\target\classes;C:\Users\hbansal\.m2\repository\org\hamcrest\hamcrest-all\1.3\hamcrest-all-1.3.jar;C:\Users\hbansal\.m2\repository\org\json\json\20160810\json-20160810.jar;C:\Users\hbansal\.m2\repository\org\seleniumhq\selenium\selenium-java\3.8.1\selenium-java-3.8.1.jar;C:\Users\hbansal\.m2\repository\org\seleniumhq\selenium\selenium-api\3.8.1\selenium-api-3.8.1.jar;C:\Users\hbansal\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.8.1\selenium-chrome-driver-3.8.1.jar;C:\Users\hbansal\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.8.1\selenium-edge-driver-3.8.1.jar;C:\Users\hbansal\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.8.1\selenium-firefox-driver-3.8.1.jar;C:\Users\hbansal\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.8.1\selenium-ie-driver-3.8.1.jar;C:\Users\hbansal\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.8.1\selenium-opera-driver-3.8.1.jar;C:\Users\hbansal\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.8.1\selenium-remote-driver-3.8.1.jar;C:\Users\hbansal\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.8.1\selenium-safari-driver-3.8.1.jar;C:\Users\hbansal\.m2\repository\org\seleniumhq\selenium\selenium-support\3.8.1\selenium-support-3.8.1.jar;C:\Users\hbansal\.m2\repository\net\bytebuddy\byte-buddy\1.7.5\byte-buddy-1.7.5.jar;C:\Users\hbansal\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\hbansal\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\hbansal\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\hbansal\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\hbansal\.m2\repository\com\google\guava\guava\23.0\guava-23.0.jar;C:\Users\hbansal\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\hbansal\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\hbansal\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\hbansal\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\hbansal\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\hbansal\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\hbansal\.m2\repository\info\cukes\cucumber-junit\1.2.4\cucumber-junit-1.2.4.jar;C:\Users\hbansal\.m2\repository\info\cukes\cucumber-core\1.2.4\cucumber-core-1.2.4.jar;C:\Users\hbansal\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\hbansal\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\hbansal\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\hbansal\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\hbansal\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\hbansal\.m2\repository\info\cukes\cucumber-java\1.2.4\cucumber-java-1.2.4.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\hbansal\AppData\Local\Temp\surefire5019102891161316506\surefirebooter6566334987631633235.jar C:\Users\hbansal\AppData\Local\Temp\surefire5019102891161316506 2018-02-22T12-52-26_200-jvmRun1 surefire1553342901346401263tmp surefire_017702722637435327tmp"/>
+    <property name="surefire.test.class.path" value="C:\workspace\LearningBDD\target\test-classes;C:\workspace\LearningBDD\target\classes;C:\Users\hbansal\.m2\repository\org\hamcrest\hamcrest-all\1.3\hamcrest-all-1.3.jar;C:\Users\hbansal\.m2\repository\org\json\json\20160810\json-20160810.jar;C:\Users\hbansal\.m2\repository\org\seleniumhq\selenium\selenium-java\3.8.1\selenium-java-3.8.1.jar;C:\Users\hbansal\.m2\repository\org\seleniumhq\selenium\selenium-api\3.8.1\selenium-api-3.8.1.jar;C:\Users\hbansal\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.8.1\selenium-chrome-driver-3.8.1.jar;C:\Users\hbansal\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.8.1\selenium-edge-driver-3.8.1.jar;C:\Users\hbansal\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.8.1\selenium-firefox-driver-3.8.1.jar;C:\Users\hbansal\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.8.1\selenium-ie-driver-3.8.1.jar;C:\Users\hbansal\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.8.1\selenium-opera-driver-3.8.1.jar;C:\Users\hbansal\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.8.1\selenium-remote-driver-3.8.1.jar;C:\Users\hbansal\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.8.1\selenium-safari-driver-3.8.1.jar;C:\Users\hbansal\.m2\repository\org\seleniumhq\selenium\selenium-support\3.8.1\selenium-support-3.8.1.jar;C:\Users\hbansal\.m2\repository\net\bytebuddy\byte-buddy\1.7.5\byte-buddy-1.7.5.jar;C:\Users\hbansal\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\hbansal\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\hbansal\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\hbansal\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\hbansal\.m2\repository\com\google\guava\guava\23.0\guava-23.0.jar;C:\Users\hbansal\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\hbansal\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\hbansal\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\hbansal\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\hbansal\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\hbansal\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\hbansal\.m2\repository\info\cukes\cucumber-junit\1.2.4\cucumber-junit-1.2.4.jar;C:\Users\hbansal\.m2\repository\info\cukes\cucumber-core\1.2.4\cucumber-core-1.2.4.jar;C:\Users\hbansal\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\hbansal\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\hbansal\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\hbansal\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\hbansal\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\hbansal\.m2\repository\info\cukes\cucumber-java\1.2.4\cucumber-java-1.2.4.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\hbansal"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_151\jre"/>
+    <property name="basedir" value="C:\workspace\LearningBDD"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\hbansal\AppData\Local\Temp\surefire5019102891161316506\surefirebooter6566334987631633235.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_151\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_151-b12"/>
+    <property name="user.name" value="hbansal"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="6.3"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\hbansal\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\hbansal\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_151"/>
+    <property name="user.dir" value="C:\workspace\LearningBDD"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\apache-maven-3.5.2\bin;C:\Program Files\nodejs\;C:\Users\hbansal\AppData\Local\Android\android-sdk;C:\Users\hbansal\AppData\Local\Android\android-sdk\platform-tools;C:\Users\hbansal\AppData\Local\Android\android-sdk\tools;C:\Windows\System32\curl.exe;C:\cygwin64\bin;C:\Users\hbansal\AppData\Roaming\npm;C:\Program Files\Docker Toolbox;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.151-b12"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="Given user instantiates the driver" classname="| books |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="When user gets the url" classname="| books |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given user enters &quot;books&quot; in search box" classname="| books |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="When user clicks on search button" classname="| books |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then links are displayed according to &quot;books&quot;" classname="| books |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="| books |" classname="| books |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="| books |" classname="| books |" time="0.012"/>
+  <testcase name="Given user instantiates the driver" classname="| money |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="When user gets the url" classname="| money |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given user enters &quot;money&quot; in search box" classname="| money |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="When user clicks on search button" classname="| money |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then links are displayed according to &quot;money&quot;" classname="| money |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="| money |" classname="| money |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="| money |" classname="| money |" time="0"/>
+  <testcase name="Given user instantiates the driver" classname="Scenario: Verify google page title" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="When user gets the url" classname="Scenario: Verify google page title" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given user is on Google home page" classname="Scenario: Verify google page title" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="When user fetches the title of the page" classname="Scenario: Verify google page title" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then user verifies the title" classname="Scenario: Verify google page title" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Scenario: Verify google page title" classname="Scenario: Verify google page title" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Scenario: Verify google page title" classname="Scenario: Verify google page title" time="0.012"/>
+</testsuite>
