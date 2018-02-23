@@ -24,10 +24,10 @@ public class Hooks {
 
     @After
     public void closebrowser(Scenario scenario){
-        driver.quit();
         if (scenario.isFailed()) {
             final byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
             scenario.embed(screenshot, "image/png");
         }
+        driver.quit();
     }
 }
