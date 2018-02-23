@@ -18,4 +18,4 @@ Feature: Google Home Page
       Then user verifies the "<title>"
       Examples:
       | title |
-      | Googlehdgjs |
+      | Google |
