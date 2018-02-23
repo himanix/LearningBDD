@@ -6,6 +6,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src\\main\\java\\feature\\search.feature"
         ,glue="StepDefinitions"
+        ,plugin={"pretty","json:target/cucumberreports.json"}
 )
 public class RunTest {
 }

@@ -13,7 +13,7 @@ public class GoogleHomePage extends BaseClass{
         sendDatatofields(By.xpath("//input[@id='lst-ib']"),keyword);
     }
     public void clickonSearch(){
-        clickelement(By.xpath("//input[@name='btnK']"));
+        clickelement(By.xpath("//input[@value='Google Search']"));
     }
     public String verifyTitle(){
         String actualTitle=getTitle();

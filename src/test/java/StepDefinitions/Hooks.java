@@ -14,6 +14,8 @@ public class Hooks {
         String exepath="src\\main\\resources\\drivers\\chromedriver.exe";
         System.setProperty("webdriver.chrome.driver",exepath);
         driver = new ChromeDriver();
+        driver.manage().window().maximize();
+        driver.manage().deleteAllCookies();
         BaseClass bc=new BaseClass(driver);
     }
 
