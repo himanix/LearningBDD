@@ -1,7 +1,10 @@
 package StepDefinitions;
 
+import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import pageobjects.BaseClass;
@@ -20,7 +23,11 @@ public class Hooks {
     }
 
     @After
-    public void closebrowser(){
+    public void closebrowser(Scenario scenario){
         driver.quit();
+        if (scenario.isFailed()) {
+            final byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+            scenario.embed(screenshot, "image/png");
+        }
     }
 }
