@@ -11,7 +11,7 @@ Feature: Google Home Page
       Examples:
       | keyword |
       | book   |
-      | money   |
+      | money  |
 
     Scenario Outline: Verify google page title
       When user fetches the title of the page
