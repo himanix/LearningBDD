@@ -12,6 +12,7 @@ Feature: Google Home Page
       | keyword |
       | book   |
       | money  |
+      | picnic |
 
     Scenario Outline: Verify google page title
       When user fetches the title of the page
