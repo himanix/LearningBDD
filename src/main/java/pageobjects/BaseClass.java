@@ -2,6 +2,7 @@ package pageobjects;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class BaseClass {
@@ -16,12 +17,12 @@ public class BaseClass {
 
     public void openUrl(String url){ driver.get(url); }
 
-    public void clickelement(By locator){
-        driver.findElement(locator).click();
+    public void clickelement(WebElement element){
+        element.click();
     }
 
-    public void sendDatatofields(By locate,String data){
-        driver.findElement(locate).sendKeys(data);
+    public void sendDatatofields(WebElement elem,String data){
+        elem.sendKeys(data);
     }
 
     public String getTitle(){
