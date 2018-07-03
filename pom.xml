@@ -50,6 +50,11 @@
     <artifactId>appengine-tools-sdk</artifactId>
     <version>1.9.64</version>
 </dependency>
+<dependency>
+    <groupId>com.google.appengine</groupId>
+    <artifactId>gradle-appengine-plugin</artifactId>
+    <version>1.9.59</version>
+</dependency>
 
 </dependencies>
 <build>
