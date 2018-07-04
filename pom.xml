@@ -63,6 +63,11 @@
         <groupId>com.google.appengine</groupId>
         <artifactId>appengine-maven-plugin</artifactId>
         <version>1.9.60</version>
+        <configuration>
+         <enableJarClasses>false</enableJarClasses>
+         <port>8181</port>
+         <address>0.0.0.0</address>
+       </configuration>
       </plugin>
     <plugin>
         <groupId>com.github.temyers</groupId>
